@@ -1,0 +1,2174 @@
+started doLogin
+
+Logging in... 
+
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Logged in as: 1320167821775@localhost/data
+
+STUN server reset to: 130.229.138.49:19293 Relay server reset to: 130.229.138.49:80
+Handling incoming stanza...
+Handling incoming stanza...
+Received status update of remote networkNode: 1320167821775@localhost/data, it is online now.
+TunnelSession::OnSessionState
+started doLogin
+
+Logging in... 
+
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Logged in as: 1320167821775@localhost/data
+
+STUN server reset to: 130.229.138.49:19293 Relay server reset to: 130.229.138.49:80
+Handling incoming stanza...
+Handling incoming stanza...
+Received status update of remote networkNode: 1320167821775@localhost/data, it is online now.
+TunnelSession::OnSessionState(Session::STATE_SENTINITIATE)
+Add new data to outgoing pending map. TunnelID = 1320167839739 len = 7679529
+Handling incoming stanza...
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDACCEPT)
+Connect to channel: tunnel
+A new transport channel for session 3534378110 created, with content_name= tunnel, channel_name= tcp
+TunnelSession::OnSessionState(Session::STATE_INPROGRESS)
+Handling incoming stanza...
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Jingle:Net[Intel(R):130.229.138.49]: Allocation Phase=Udp (Step=0)
+Jingle:Port[:3452816845:local:Net[Intel(R):130.229.138.49]]: Port created
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Added port to allocator
+Jingle:Port[:3452816845:stun:Net[Intel(R):130.229.138.49]]: Port created
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Added port to allocator
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62106
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62107
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62106
+Handling incoming stanza...
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62107
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:62105->tcp:0:local:udp:130.229.138.49:62106|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (1 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:62104->tcp:0:local:udp:130.229.138.49:62106|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (2 total)
+Jingle:Channel[tcp|__]: New best connection: Conn[tcp:0:local:udp:130.229.138.49:62104->tcp:0:local:udp:130.229.138.49:62106|C-w|-]
+Error(winping.cc:222): IcmpSendEcho(130.229.138.49, 65507): 87
+Warning(pseudotcpchannel.cc:379): cricket::PseudoTcpChannel::OnChannelConnectionChanged: Failed to estimate MTU, error=22
+State: TCP_SYN_SENT
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:62105->tcp:0:local:udp:130.229.138.49:62106|C--|-]: Connection deleted
+Jingle:Channel[tcp|_W]: Removed connection (1 remaining)
+TunnelSession::OnSessionState(Session::STATE_SENTINITIATE)
+Add new data to outgoing pending map. TunnelID = 1320167839716 len = 7679529
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Handling PROGRESS)
+Jingle:Net[Intel(R):130.229.138.49]: Allocation Phase=Udp (Step=0)
+Jingle:Port[:3452816845:local:Net[Intel(R):130.229.138.49]]: Port created
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Added port to allocator
+Jingle:Port[:3452816845:stun:Net[Intel(R):130.229.138.49]]: Port created
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Added port to allocator
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Jingle:Net[Intel(R):130.229.138.49]: Allocation Phase=Udp (Step=0)
+Jingle:Port[:3452816845:local:Net[Intel(R):130.229.138.49]]: Port created
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Added port to allocator
+Jingle:Port[:3452816845:stun:Net[Intel(R):130.229.138.49]]: Port created
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Added port to allocator
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62128
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62129
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62128
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62129
+State: TCP_ESTABLISHED
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 7, 0)
+Outgoing stream event: event = 7 error = 0
+Outgoing Data Tunnel opened.
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62128
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62129
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62128
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62129
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62128
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62129
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62128
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62129
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62128
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62129
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62128
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62129
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62128
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62129
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62128
+Handling incoming stanza...
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62129
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:62139->tcp:0:local:udp:130.229.138.49:62128|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (1 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:62138->tcp:0:local:udp:130.229.138.49:62128|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (2 total)
+Jingle:Channel[tcp|__]: New best connection: Conn[tcp:0:local:udp:130.229.138.49:62138->tcp:0:local:udp:130.229.138.49:62128|C-w|-]
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Error(winping.cc:222): IcmpSendEcho(130.229.138.49, 65507): 87
+Warning(pseudotcpchannel.cc:379): cricket::PseudoTcpChannel::OnChannelConnectionChanged: Failed to estimate MTU, error=22
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62129
+State: TCP_SYN_SENT
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Handling incoming stanza...
+Handling incoming stanza...
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:62139->tcp:0:stun:udp:130.229.138.49:62129|C-w|-]: Connection created
+Jingle:Channel[tcp|RW]: Created connection with origin=2, (3 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:62138->tcp:0:stun:udp:130.229.138.49:62129|C-w|-]: Connection created
+Jingle:Channel[tcp|RW]: Created connection with origin=2, (4 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:62138->tcp:0:stun:udp:130.229.138.49:62129|C--|-]: Connection deleted
+Jingle:Channel[tcp|RW]: Removed connection (3 remaining)
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:62139->tcp:0:stun:udp:130.229.138.49:62129|C--|-]: Connection deleted
+Jingle:Channel[tcp|RW]: Removed connection (2 remaining)
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62134
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:62135
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:62137->tcp:0:local:udp:130.229.138.49:62134|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (1 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:62136->tcp:0:local:udp:130.229.138.49:62134|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (2 total)
+Jingle:Channel[tcp|__]: New best connection: Conn[tcp:0:local:udp:130.229.138.49:62136->tcp:0:local:udp:130.229.138.49:62134|C-w|-]
+Error(winping.cc:222): IcmpSendEcho(130.229.138.49, 65507): 87
+Warning(pseudotcpchannel.cc:379): cricket::PseudoTcpChannel::OnChannelConnectionChanged: Failed to estimate MTU, error=22
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:62137->tcp:0:stun:udp:130.229.138.49:62135|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (3 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:62136->tcp:0:stun:udp:130.229.138.49:62135|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (4 total)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+State: TCP_ESTABLISHED
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+State: TCP_SYN_RECEIVED
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 7, 0)
+Outgoing stream event: event = 7 error = 0
+Outgoing Data Tunnel opened.
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839716' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+State: TCP_ESTABLISHED
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 7, 0)
+Incoming stream event: event = 7 error = 0
+Incoming Data Tunnel opened.
+Reading from incoming tunnel...
+Error(tunneldatatransferclient.cpp:325): Stream blocked on read len =0
+Read in tunnel '1320167839845'. Error code = 1
+On close PseudoTcpChannel for [tcp]
+Read data map size after remove = 0
+cricket::PseudoTcpChannel::OnMessage: (MSG_SI_DESTROYCHANNEL)
+cricket::PseudoTcpChannel::OnChannelDestroyed: (tcp)
+cricket::PseudoTcpChannel::OnMessage: (MSG_WK_PURGE)
+TunnelSession.OnChannelClosed(): Tcp channel closed and session terminated for TunnelSession.
+TunnelSession::OnSessionState(Session::STATE_SENTTERMINATE)
+cricket::PseudoTcpChannel::OnMessage: (MSG_SI_DESTROY)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Handling incoming stanza...
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+Error(httpportallocator.cc:154): HttpPortAllocator: maximum number of requests reached; giving up on relay.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+Error(httpportallocator.cc:154): HttpPortAllocator: maximum number of requests reached; giving up on relay.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Port deleted
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Removed port from allocator (1 remaining)
+Removed port from p2p socket: 1 remaining
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:62104->tcp:0:local:udp:130.229.138.49:62106|CRW|9]: Timing-out STUN ping AdXEmMtSbCjd after 5008 ms
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:62139->tcp:0:local:udp:130.229.138.49:62128|CR-|-]: Unreadable after 30452 ms without a ping, rtt=3000
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:62139->tcp:0:local:udp:130.229.138.49:62128|C--|-]: Connection deleted
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Port deleted
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Removed port from allocator (1 remaining)
+Removed port from p2p socket: 1 remaining
+Jingle:Channel[tcp|RW]: Removed connection (1 remaining)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:62104->tcp:0:local:udp:130.229.138.49:62106|CRW|6]: Timing-out STUN ping 0ujrlSsNd3Ob after 5007 ms
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:62104->tcp:0:local:udp:130.229.138.49:62106|CRW|14]: Timing-out STUN ping 8LkRNz+7ZnhW after 5008 ms
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+State: TCP_CLOSED
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 8, 10053)
+Outgoing stream event: event = 8 error = 10053
+Error(tunneldatatransferclient.cpp:445): Outgoing Data Tunnel closed with error: 10053
+Write data map size after remove = 1
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:62104->tcp:0:local:udp:130.229.138.49:62106|CRW|1]: Timing-out STUN ping R9I6GW2QBxVY after 5008 ms
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 4, 0)
+Outgoing stream event: event = 4 error = 0
+Writing to outgoing tunnel...
+Write outgoing tunnel '1320167839739' done.
+Handling incoming stanza...
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDTERMINATE)
+cricket::PseudoTcpChannel::OnChannelDestroyed: (tcp)
+cricket::PseudoTcpChannel::OnMessage: (MSG_WK_PURGE)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 8, 0)
+Outgoing stream event: event = 8 error = 0
+Outgoing Data Tunnel normally closed.
+Write data map size after remove = 0
+Error(pseudotcp.cc:614): cricket::PseudoTcp::process: closed
+
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDTERMINATE)
+cricket::PseudoTcpChannel::OnChannelDestroyed: (tcp)
+cricket::PseudoTcpChannel::OnMessage: (MSG_WK_PURGE)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 8, 0)
+Outgoing stream event: event = 8 error = 0
+Outgoing Data Tunnel normally closed.
+Write data map size after remove = 0
+Error(pseudotcp.cc:614): cricket::PseudoTcp::process: closed
+
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDTERMINATE)
+cricket::PseudoTcpChannel::OnChannelDestroyed: (tcp)
+cricket::PseudoTcpChannel::OnMessage: (MSG_WK_PURGE)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 8, 0)
+Outgoing stream event: event = 8 error = 0
+Outgoing Data Tunnel normally closed.
+Write data map size after remove = 0
+Error(pseudotcp.cc:614): cricket::PseudoTcp::process: closed
+
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDTERMINATE)
+cricket::PseudoTcpChannel::OnChannelDestroyed: (tcp)
+cricket::PseudoTcpChannel::OnMessage: (MSG_WK_PURGE)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 8, 0)
+Outgoing stream event: event = 8 error = 0
+Outgoing Data Tunnel normally closed.
+Write data map size after remove = 0
+Error(pseudotcp.cc:614): cricket::PseudoTcp::process: closed
+
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDTERMINATE)
+cricket::PseudoTcpChannel::OnChannelDestroyed: (tcp)
+cricket::PseudoTcpChannel::OnMessage: (MSG_WK_PURGE)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 8, 0)
+Outgoing stream event: event = 8 error = 0
+Outgoing Data Tunnel normally closed.
+Write data map size after remove = 0
+Error(pseudotcp.cc:614): cricket::PseudoTcp::process: closed
+
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDTERMINATE)
+cricket::PseudoTcpChannel::OnChannelDestroyed: (tcp)
+cricket::PseudoTcpChannel::OnMessage: (MSG_WK_PURGE)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 8, 0)
+Outgoing stream event: event = 8 error = 0
+Outgoing Data Tunnel normally closed.
+Write data map size after remove = 0
+Error(pseudotcp.cc:614): cricket::PseudoTcp::process: closed
+
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDTERMINATE)
+cricket::PseudoTcpChannel::OnChannelDestroyed: (tcp)
+cricket::PseudoTcpChannel::OnMessage: (MSG_WK_PURGE)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 8, 0)
+Outgoing stream event: event = 8 error = 0
+Outgoing Data Tunnel normally closed.
+Write data map size after remove = 0
+Error(pseudotcp.cc:614): cricket::PseudoTcp::process: closed
+
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDTERMINATE)
+cricket::PseudoTcpChannel::OnChannelDestroyed: (tcp)
+cricket::PseudoTcpChannel::OnMessage: (MSG_WK_PURGE)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 8, 0)
+Outgoing stream event: event = 8 error = 0
+Outgoing Data Tunnel normally closed.
+Write data map size after remove = 0
+Error(pseudotcp.cc:614): cricket::PseudoTcp::process: closed
+
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDTERMINATE)
+cricket::PseudoTcpChannel::OnChannelDestroyed: (tcp)
+cricket::PseudoTcpChannel::OnMessage: (MSG_WK_PURGE)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 8, 0)
+Outgoing stream event: event = 8 error = 0
+Outgoing Data Tunnel normally closed.
+Write data map size after remove = 0
+Error(pseudotcp.cc:614): cricket::PseudoTcp::process: closed
+
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDTERMINATE)
+cricket::PseudoTcpChannel::OnChannelDestroyed: (tcp)
+cricket::PseudoTcpChannel::OnMessage: (MSG_WK_PURGE)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 8, 0)
+Outgoing stream event: event = 8 error = 0
+Outgoing Data Tunnel normally closed.
+Write data map size after remove = 0
+Error(pseudotcp.cc:614): cricket::PseudoTcp::process: closed
+
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDTERMINATE)
+cricket::PseudoTcpChannel::OnChannelDestroyed: (tcp)
+cricket::PseudoTcpChannel::OnMessage: (MSG_WK_PURGE)
+PseudoTcpChannel::OnMessage(MSG_ST_EVENT, 8, 0)
+Outgoing stream event: event = 8 error = 0
+Outgoing Data Tunnel normally closed.
+Write data map size after remove = 0
+Error(pseudotcp.cc:614): cricket::PseudoTcp::process: closed

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2011. Degoo Media AB
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>NATSimulation</groupId>
+    <artifactId>NATSimulation</artifactId>
+    <version>1.0</version>
+
+    <repositories>
+        <repository>
+            <id>maven2-repository.dev.java.net</id>
+            <name>Java.net Repository for Maven</name>
+            <url>http://download.java.net/maven/2/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>repo2.maven.org</id>
+            <name>Maven2</name>
+            <url>http://repo1.maven.org/maven2/</url>
+        </repository>
+        <repository>
+            <id>guice-maven</id>
+            <name>guice maven</name>
+            <url>http://guice-maven.googlecode.com/svn/trunk</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>NATTraversal</groupId>
+            <artifactId>NATTraversal</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+	<groupId>net.sf.opencsv</groupId>
+	<artifactId>opencsv</artifactId>
+	<version>2.3</version>
+</dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,582 @@
+started doLogin
+
+Logging in... 
+
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Logged in as: started doLogin
+
+Logging in... 
+
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stastarted doLogin
+
+Logging in... 
+
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Logged in as: nzastarted doLogin
+
+Logging in... 
+
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Logged in as: started doLogin
+
+Logging in... 
+
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Logged in as: ...
+Logged in as: 1320838143641@localhost/data
+
+STUN server set to: 130.229.165.240:19293 Relay server set to: 130.229.165.240:80
+STUN server set to: 130.229.138.49:19293 Relay server set to: 130.229.138.49:80
+[Tunnel-GC] started
+Handling incoming stanza...
+Handling incoming stanza...
+Received status update of remote node: 1320838143641@localhost/data, it is online now.
+TunnelSession::OnSessionState(Session::STATE_SENTINITIATE)
+New outgoing tunnel created, tunnel id = 1320838142495 session = 1464048462
+Handling incoming stanza...
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDACCEPT)
+A new transport channel for session 1741796422 created, with content name= tunnel, channel name= tcp
+TunnelSession::OnSessionState(Session::STATE_INPROGRESS)
+Handling incoming stanza...
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Jingle:Net[Intel(R):130.229.138.49]: Allocation Phase=Udp (Step=0)
+Jingle:Port[:3452816845:local:Net[Intel(R):130.229.138.49]]: Port created
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Added port to allocator
+Jingle:Port[:3452816845:stun:Net[Intel(R):130.229.138.49]]: Port created
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Added port to allocator
+Handling incoming stanza...
+Handling incoming stanza...
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDINITIATE)
+TunnelSession::OnSessionState(Session::STATE_SENTACCEPT)
+A new transport channel for session 1831491159 created, with content name= tunnel, channel name= tcp
+[Incoming tunnel created]. Tunnel id = 1320838142495 session = 1831491159
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54773->tcp:0:local:udp:130.229.138.49:54770|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (1 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54772->tcp:0:local:udp:130.229.138.49:54770|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (2 total)
+Jingle:Channel[tcp|__]: New best connection: Conn[tcp:0:local:udp:130.229.138.49:54772->tcp:0:local:udp:130.229.138.49:54770|C-w|-]
+TunnelSession::OnSessionState(Session::STATE_INPROGRESS)
+Error(winping.cc:222): IcmpSendEcho(130.229.138.49, 65507): 87
+Warning(pseudotcpchannel.cc:379): cricket::PseudoTcpChannel::OnChannelConnectionChanged: Failed to estimate MTU, error=22
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Jingle:Net[Intel(R):130.229.138.49]: Allocation Phase=Udp (Step=0)
+Jingle:Port[:3452816845:local:Net[Intel(R):130.229.138.49]]: Port created
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Added port to allocator
+Jingle:Port[:3452816845:stun:Net[Intel(R):130.229.138.49]]: Port created
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Added port to allocator
+State: TCP_SYN_SENT
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54773->tcp:0:local:udp:130.229.138.49:54770|C--|-]: Connection deleted
+Jingle:Channel[tcp|RW]: Removed connection (1 remaining)
+State: TCP_ESTABLISHED
+(MSG_ST_EVENT, 7, 0)
+(MSG_ST_EVENT, 4, 0)
+(MSG_ST_EVENT, 4, 0)
+(MSG_ST_EVENT, 4, 0)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:54778
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:54780
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:54778
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:54780
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:54778
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:54780
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:54778
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54773->tcp:0:stun:udp:130.229.138.49:54771|C-w|-]: Connection created
+Jingle:Channel[tcp|RW]: Created connection with origin=2, (2 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54772->tcp:0:stun:udp:130.229.138.49:54771|C-w|-]: Connection created
+Jingle:Channel[tcp|RW]: Created connection with origin=2, (3 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54772->tcp:0:stun:udp:130.229.138.49:54771|C--|-]: Connection deleted
+Jingle:Channel[tcp|RW]: Removed connection (2 remaining)
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54773->tcp:0:stun:udp:130.229.138.49:54771|C--|-]: Connection deleted
+Jingle:Channel[tcp|RW]: Removed connection (1 remaining)
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54777->tcp:0:local:udp:130.229.138.49:54778|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (1 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54776->tcp:0:local:udp:130.229.138.49:54778|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (2 total)
+Jingle:Channel[tcp|__]: New best connection: Conn[tcp:0:local:udp:130.229.138.49:54776->tcp:0:local:udp:130.229.138.49:54778|C-w|-]
+Error(winping.cc:222): IcmpSendEcho(130.229.138.49, 65507): 87
+Warning(pseudotcpchannel.cc:379): cricket::PseudoTcpChannel::OnChannelConnectionChanged: Failed to estimate MTU, error=22
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54777->tcp:0:stun:udp:130.229.138.49:54780|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (3 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54776->tcp:0:stun:udp:130.229.138.49:54780|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (4 total)
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54777->tcp:0:local:udp:130.229.138.49:54778|C--|-]: Connection deleted
+Jingle:Channel[tcp|_W]: Removed connection (3 remaining)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54776->tcp:0:stun:udp:130.229.138.49:54780|C--|-]: Connection deleted
+Jingle:Channel[tcp|_W]: Removed connection (2 remaining)
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54777->tcp:0:stun:udp:130.229.138.49:54780|C--|-]: Connection deleted
+Jingle:Channel[tcp|_W]: Removed connection (1 remaining)
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54777->tcp:0:stun:udp:130.229.138.49:54780|C-w|-]: Connection created
+Jingle:Channel[tcp|_W]: Created connection with origin=1, (2 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54776->tcp:0:stun:udp:130.229.138.49:54780|C-w|-]: Connection created
+Jingle:Channel[tcp|_W]: Created connection with origin=0, (3 total)
+Duplicate candidate: 130.229.138.49:54780
+State: TCP_SYN_RECEIVED
+State: TCP_ESTABLISHED
+(MSG_ST_EVENT, 7, 0)
+[Incoming Tunnel 1320838142495] Process incoming data done.
+Read data from incoming tunnel '1320838142495'
+(MSG_ST_EVENT, 2, 0)
+[Incoming Tunnel 1320838142495] Process incoming data done.
+Read data from incoming tunnel '1320838142495'
+(MSG_ST_EVENT, 2, 0)
+[Incoming Tunnel 1320838142495] Process incoming data done.
+Read data from incoming tunnel '1320838142495'
+(MSG_ST_EVENT, 2, 0)
+(MSG_WK_CLOCK)
+(MSG_ST_EVENT, 2, 0)
+[Incoming Tunnel 1320838142495] Process incoming data done.
+Read data from incoming tunnel '1320838142495'
+(MSG_ST_EVENT, 2, 0)
+[Incoming Tunnel 1320838142495] Process incoming data done.
+Read data from incoming tunnel '1320838142495'
+(MSG_ST_EVENT, 2, 0)
+[Incoming Tunnel 1320838142495] Process incoming data done.
+Read data from incoming tunnel '1320838142495'
+(MSG_ST_EVENT, 2, 0)
+(MSG_WK_CLOCK)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Handling incoming stanza...
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+(MSG_WK_CLOCK)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54772->tcp:0:local:udp:130.229.138.49:54770|CRW|126]: Timing-out STUN ping eExyc6F3z9yQ after 5008 ms
+(MSG_WK_CLOCK)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+(MSG_WK_CLOCK)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+(MSG_WK_CLOCK)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+Error(httpportallocator.cc:154): HttpPortAllocator: maximum number of requests reached; giving up on relay.
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+Error(httpportallocator.cc:154): HttpPortAllocator: maximum number of requests reached; giving up on relay.
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Port deleted
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Removed port from allocator (1 remaining)
+Removed port from p2p socket: 1 remaining
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54776->tcp:0:stun:udp:130.229.138.49:54780|CR-|-]: Unreadable after 30014 ms without a ping, rtt=3000
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54777->tcp:0:stun:udp:130.229.138.49:54780|CR-|-]: Unreadable after 30014 ms without a ping, rtt=3000
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54776->tcp:0:stun:udp:130.229.138.49:54780|C--|-]: Connection deleted
+Jingle:Channel[tcp|RW]: Removed connection (2 remaining)
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54777->tcp:0:stun:udp:130.229.138.49:54780|C--|-]: Connection deleted
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Port deleted
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Removed port from allocator (1 remaining)
+Removed port from p2p socket: 1 remaining
+Jingle:Channel[tcp|RW]: Removed connection (1 remaining)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+started doLogin
+
+Logging in... 
+
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Logged in as: started doLogin
+
+Logging in... 
+
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stastarted doLogin
+
+Logging in... 
+
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Logged in as: nzastarted doLogin
+
+Logging in... 
+
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Logged in as: started doLogin
+
+Logging in... 
+
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Logged in as: ...
+Logged in as: 1320838143641@localhost/data
+
+STUN server set to: 130.229.165.240:19293 Relay server set to: 130.229.165.240:80
+STUN server set to: 130.229.138.49:19293 Relay server set to: 130.229.138.49:80
+[Tunnel-GC] started
+Handling incoming stanza...
+Handling incoming stanza...
+Received status update of remote node: 1320838143641@localhost/data, it is online now.
+TunnelSession::OnSessionState(Session::STATE_SENTINITIATE)
+New outgoing tunnel created, tunnel id = 1320838142495 session = 1464048462
+Handling incoming stanza...
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDACCEPT)
+A new transport channel for session 1741796422 created, with content name= tunnel, channel name= tcp
+TunnelSession::OnSessionState(Session::STATE_INPROGRESS)
+Handling incoming stanza...
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Jingle:Net[Intel(R):130.229.138.49]: Allocation Phase=Udp (Step=0)
+Jingle:Port[:3452816845:local:Net[Intel(R):130.229.138.49]]: Port created
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Added port to allocator
+Jingle:Port[:3452816845:stun:Net[Intel(R):130.229.138.49]]: Port created
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Added port to allocator
+Handling incoming stanza...
+Handling incoming stanza...
+TunnelSession::OnSessionState(Session::STATE_RECEIVEDINITIATE)
+TunnelSession::OnSessionState(Session::STATE_SENTACCEPT)
+A new transport channel for session 1831491159 created, with content name= tunnel, channel name= tcp
+[Incoming tunnel created]. Tunnel id = 1320838142495 session = 1831491159
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54773->tcp:0:local:udp:130.229.138.49:54770|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (1 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54772->tcp:0:local:udp:130.229.138.49:54770|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (2 total)
+Jingle:Channel[tcp|__]: New best connection: Conn[tcp:0:local:udp:130.229.138.49:54772->tcp:0:local:udp:130.229.138.49:54770|C-w|-]
+TunnelSession::OnSessionState(Session::STATE_INPROGRESS)
+Error(winping.cc:222): IcmpSendEcho(130.229.138.49, 65507): 87
+Warning(pseudotcpchannel.cc:379): cricket::PseudoTcpChannel::OnChannelConnectionChanged: Failed to estimate MTU, error=22
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Jingle:Net[Intel(R):130.229.138.49]: Allocation Phase=Udp (Step=0)
+Jingle:Port[:3452816845:local:Net[Intel(R):130.229.138.49]]: Port created
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Added port to allocator
+Jingle:Port[:3452816845:stun:Net[Intel(R):130.229.138.49]]: Port created
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Added port to allocator
+State: TCP_SYN_SENT
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54773->tcp:0:local:udp:130.229.138.49:54770|C--|-]: Connection deleted
+Jingle:Channel[tcp|RW]: Removed connection (1 remaining)
+State: TCP_ESTABLISHED
+(MSG_ST_EVENT, 7, 0)
+(MSG_ST_EVENT, 4, 0)
+(MSG_ST_EVENT, 4, 0)
+(MSG_ST_EVENT, 4, 0)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:54778
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:54780
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:54778
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:54780
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:54778
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:54780
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Handling incoming stanza...
+Jingle:Port[tcp:0:local:Net[Intel(R):130.229.138.49]]: Sending STUN binding error: reason=STALE CREDENTIALS to 130.229.138.49:54778
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54773->tcp:0:stun:udp:130.229.138.49:54771|C-w|-]: Connection created
+Jingle:Channel[tcp|RW]: Created connection with origin=2, (2 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54772->tcp:0:stun:udp:130.229.138.49:54771|C-w|-]: Connection created
+Jingle:Channel[tcp|RW]: Created connection with origin=2, (3 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54772->tcp:0:stun:udp:130.229.138.49:54771|C--|-]: Connection deleted
+Jingle:Channel[tcp|RW]: Removed connection (2 remaining)
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54773->tcp:0:stun:udp:130.229.138.49:54771|C--|-]: Connection deleted
+Jingle:Channel[tcp|RW]: Removed connection (1 remaining)
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54777->tcp:0:local:udp:130.229.138.49:54778|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (1 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54776->tcp:0:local:udp:130.229.138.49:54778|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (2 total)
+Jingle:Channel[tcp|__]: New best connection: Conn[tcp:0:local:udp:130.229.138.49:54776->tcp:0:local:udp:130.229.138.49:54778|C-w|-]
+Error(winping.cc:222): IcmpSendEcho(130.229.138.49, 65507): 87
+Warning(pseudotcpchannel.cc:379): cricket::PseudoTcpChannel::OnChannelConnectionChanged: Failed to estimate MTU, error=22
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54777->tcp:0:stun:udp:130.229.138.49:54780|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (3 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54776->tcp:0:stun:udp:130.229.138.49:54780|C-w|-]: Connection created
+Jingle:Channel[tcp|__]: Created connection with origin=2, (4 total)
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54777->tcp:0:local:udp:130.229.138.49:54778|C--|-]: Connection deleted
+Jingle:Channel[tcp|_W]: Removed connection (3 remaining)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54776->tcp:0:stun:udp:130.229.138.49:54780|C--|-]: Connection deleted
+Jingle:Channel[tcp|_W]: Removed connection (2 remaining)
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54777->tcp:0:stun:udp:130.229.138.49:54780|C--|-]: Connection deleted
+Jingle:Channel[tcp|_W]: Removed connection (1 remaining)
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54777->tcp:0:stun:udp:130.229.138.49:54780|C-w|-]: Connection created
+Jingle:Channel[tcp|_W]: Created connection with origin=1, (2 total)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54776->tcp:0:stun:udp:130.229.138.49:54780|C-w|-]: Connection created
+Jingle:Channel[tcp|_W]: Created connection with origin=0, (3 total)
+Duplicate candidate: 130.229.138.49:54780
+State: TCP_SYN_RECEIVED
+State: TCP_ESTABLISHED
+(MSG_ST_EVENT, 7, 0)
+[Incoming Tunnel 1320838142495] Process incoming data done.
+Read data from incoming tunnel '1320838142495'
+(MSG_ST_EVENT, 2, 0)
+[Incoming Tunnel 1320838142495] Process incoming data done.
+Read data from incoming tunnel '1320838142495'
+(MSG_ST_EVENT, 2, 0)
+[Incoming Tunnel 1320838142495] Process incoming data done.
+Read data from incoming tunnel '1320838142495'
+(MSG_ST_EVENT, 2, 0)
+(MSG_WK_CLOCK)
+(MSG_ST_EVENT, 2, 0)
+[Incoming Tunnel 1320838142495] Process incoming data done.
+Read data from incoming tunnel '1320838142495'
+(MSG_ST_EVENT, 2, 0)
+[Incoming Tunnel 1320838142495] Process incoming data done.
+Read data from incoming tunnel '1320838142495'
+(MSG_ST_EVENT, 2, 0)
+[Incoming Tunnel 1320838142495] Process incoming data done.
+Read data from incoming tunnel '1320838142495'
+(MSG_ST_EVENT, 2, 0)
+(MSG_WK_CLOCK)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Handling incoming stanza...
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+(MSG_WK_CLOCK)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54772->tcp:0:local:udp:130.229.138.49:54770|CRW|126]: Timing-out STUN ping eExyc6F3z9yQ after 5008 ms
+(MSG_WK_CLOCK)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+HTTPPortAllocator: sending to relay host 130.229.138.49
+Warning(httpportallocator.cc:169): No relay auth token found.
+HttpRequest start: 130.229.138.49/create_session
+(MSG_WK_CLOCK)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+(MSG_WK_CLOCK)
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+Error(httpportallocator.cc:154): HttpPortAllocator: maximum number of requests reached; giving up on relay.
+Warning(physicalsocketserver.cc:1567): PhysicalSocketServer got FD_CONNECT_BIT error 10061
+Error(httpbase.cc:506): talk_base::HttpBase::HandleStreamClose: (10061)
+HttpRequest completed with error: 4
+Warning(httpportallocator.cc:201): HTTPPortAllocator: request  received error 500
+Error(httpportallocator.cc:154): HttpPortAllocator: maximum number of requests reached; giving up on relay.
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Port deleted
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Removed port from allocator (1 remaining)
+Removed port from p2p socket: 1 remaining
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54776->tcp:0:stun:udp:130.229.138.49:54780|CR-|-]: Unreadable after 30014 ms without a ping, rtt=3000
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54777->tcp:0:stun:udp:130.229.138.49:54780|CR-|-]: Unreadable after 30014 ms without a ping, rtt=3000
+Jingle:Conn[tcp:0:local:udp:130.229.138.49:54776->tcp:0:stun:udp:130.229.138.49:54780|C--|-]: Connection deleted
+Jingle:Channel[tcp|RW]: Removed connection (2 remaining)
+Jingle:Conn[tcp:0:stun:udp:130.229.138.49:54777->tcp:0:stun:udp:130.229.138.49:54780|C--|-]: Connection deleted
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Port deleted
+Jingle:Port[tcp:0:stun:Net[Intel(R):130.229.138.49]]: Removed port from allocator (1 remaining)
+Removed port from p2p socket: 1 remaining
+Jingle:Channel[tcp|RW]: Removed connection (1 remaining)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)
+(MSG_WK_CLOCK)

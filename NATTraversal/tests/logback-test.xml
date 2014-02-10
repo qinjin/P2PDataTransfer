@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy.MM.dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+
+    </appender>
+
+    <appender name="NATUnitTestFile" class="ch.qos.logback.core.FileAppender">
+        <file>Logs/NATTraversal_tests/NATTraversalAppUnitTest.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d{yyyy.MM.dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="NATIntegrationTestFile" class="ch.qos.logback.core.FileAppender">
+        <file>Logs/NATTraversal_tests/NATTraversalAppIntegrationTest.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d{yyyy.MM.dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="NATComparisonTestFile" class="ch.qos.logback.core.FileAppender">
+        <file>Logs/NATTraversal_tests/NATComparisonTest.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d{yyyy.MM.dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="JabberClientTestFile" class="ch.qos.logback.core.FileAppender">
+        <file>Logs/JabberClient_tests/JabberClientMainTest.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d{yyyy.MM.dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="Libjingle4jTestFile" class="ch.qos.logback.core.FileAppender">
+        <file>Logs/Libjingle4j_tests/Libjingle4jTest.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d{yyyy.MM.dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="console"/>
+    </root>
+
+    <logger level="DEBUG" name="com.degoo.nat.tests.unit">
+        <appender-ref ref="NATUnitTestFile"/>
+    </logger>
+
+    <logger level="DEBUG" name="com.degoo.nat.tests.integration">
+        <appender-ref ref="NATIntegrationTestFile"/>
+    </logger>
+
+    <logger level="DEBUG" name="com.degoo.nat.tests.comparison">
+        <appender-ref ref="NATComparisonTestFile"/>
+    </logger>
+
+    <logger level="DEBUG" name="com.degoo.jabberclient.tests">
+        <appender-ref ref="JabberClientTestFile"/>
+    </logger>
+
+    <logger level="DEBUG" name="com.degoo.libjingle4j.tests">
+        <appender-ref ref="Libjingle4jTestFile"/>
+    </logger>
+</configuration>

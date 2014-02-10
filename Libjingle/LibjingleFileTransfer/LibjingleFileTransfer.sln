@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDataTransfer", "..\TestFileTransfer\TestFileTransfer.vcxproj", "{FCF787E9-3C72-4FF2-9FFB-B2F66C1B6832}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D09CB62F-8D68-4B51-8E2E-8C927F79CDEA} = {D09CB62F-8D68-4B51-8E2E-8C927F79CDEA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibjingleDataTransfer", "LibjingleDataTransfer\LibjingleDataTransfer.vcxproj", "{D09CB62F-8D68-4B51-8E2E-8C927F79CDEA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjingle", "..\libjingle-0.5.8\talk\libjingle.vcxproj", "{DB74C511-D65B-6002-77BD-C1FE6AF757FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BDA278AF-FD99-4098-9496-1AE861E619B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		all|Win32 = all|Win32
+		dbg|Win32 = dbg|Win32
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCF787E9-3C72-4FF2-9FFB-B2F66C1B6832}.all|Win32.ActiveCfg = Release|Win32
+		{FCF787E9-3C72-4FF2-9FFB-B2F66C1B6832}.all|Win32.Build.0 = Release|Win32
+		{FCF787E9-3C72-4FF2-9FFB-B2F66C1B6832}.dbg|Win32.ActiveCfg = Debug|Win32
+		{FCF787E9-3C72-4FF2-9FFB-B2F66C1B6832}.dbg|Win32.Build.0 = Debug|Win32
+		{FCF787E9-3C72-4FF2-9FFB-B2F66C1B6832}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FCF787E9-3C72-4FF2-9FFB-B2F66C1B6832}.Release|Win32.ActiveCfg = Release|Win32
+		{FCF787E9-3C72-4FF2-9FFB-B2F66C1B6832}.Release|Win32.Build.0 = Release|Win32
+		{D09CB62F-8D68-4B51-8E2E-8C927F79CDEA}.all|Win32.ActiveCfg = Release|Win32
+		{D09CB62F-8D68-4B51-8E2E-8C927F79CDEA}.all|Win32.Build.0 = Release|Win32
+		{D09CB62F-8D68-4B51-8E2E-8C927F79CDEA}.dbg|Win32.ActiveCfg = Debug|Win32
+		{D09CB62F-8D68-4B51-8E2E-8C927F79CDEA}.dbg|Win32.Build.0 = Debug|Win32
+		{D09CB62F-8D68-4B51-8E2E-8C927F79CDEA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D09CB62F-8D68-4B51-8E2E-8C927F79CDEA}.Debug|Win32.Build.0 = Debug|Win32
+		{D09CB62F-8D68-4B51-8E2E-8C927F79CDEA}.Release|Win32.ActiveCfg = Release|Win32
+		{D09CB62F-8D68-4B51-8E2E-8C927F79CDEA}.Release|Win32.Build.0 = Release|Win32
+		{DB74C511-D65B-6002-77BD-C1FE6AF757FF}.all|Win32.ActiveCfg = dbg|Win32
+		{DB74C511-D65B-6002-77BD-C1FE6AF757FF}.all|Win32.Build.0 = dbg|Win32
+		{DB74C511-D65B-6002-77BD-C1FE6AF757FF}.dbg|Win32.ActiveCfg = dbg|Win32
+		{DB74C511-D65B-6002-77BD-C1FE6AF757FF}.dbg|Win32.Build.0 = dbg|Win32
+		{DB74C511-D65B-6002-77BD-C1FE6AF757FF}.Debug|Win32.ActiveCfg = dbg|Win32
+		{DB74C511-D65B-6002-77BD-C1FE6AF757FF}.Debug|Win32.Build.0 = dbg|Win32
+		{DB74C511-D65B-6002-77BD-C1FE6AF757FF}.Release|Win32.ActiveCfg = dbg|Win32
+		{DB74C511-D65B-6002-77BD-C1FE6AF757FF}.Release|Win32.Build.0 = dbg|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

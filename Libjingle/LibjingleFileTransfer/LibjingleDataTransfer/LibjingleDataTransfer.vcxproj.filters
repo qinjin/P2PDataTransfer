@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{29f352aa-b477-4a07-bcfc-1ab9d0f2a573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataTransfer">
+      <UniqueIdentifier>{046e4193-ca86-43d5-a562-f32a002a20f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataTransfer">
+      <UniqueIdentifier>{6b54d8cd-b99d-4b9b-8aad-2783023c9b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Session">
+      <UniqueIdentifier>{e1cc036c-3b93-4cae-b1ff-7bff0709e624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Session\Tunnel">
+      <UniqueIdentifier>{119d2958-ed54-43cd-b482-66261c1c3f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Session">
+      <UniqueIdentifier>{98c46507-ce65-4eca-8d60-1cbe4efb5a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Session\Tunnel">
+      <UniqueIdentifier>{83c1ed69-b8c5-4558-b5af-2adab185a370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Xmpp">
+      <UniqueIdentifier>{bb488a75-7ffd-4feb-b741-4f511f3794ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Xmpp">
+      <UniqueIdentifier>{931a57da-a6cf-4a25-815b-6fe4c663a4c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="console.cpp">
+      <Filter>Source Files\DataTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleproxy.cpp">
+      <Filter>Source Files\DataTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="constants.cpp">
+      <Filter>Source Files\DataTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="datatransferapp.cpp">
+      <Filter>Source Files\DataTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\session\tunnel\pseudotcpchannel.cc">
+      <Filter>Source Files\Session\Tunnel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\session\tunnel\tunnelsessionclient.cc">
+      <Filter>Source Files\Session\Tunnel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\examples\login\jingleinfotask.cc">
+      <Filter>Source Files\Xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\examples\login\presenceouttask.cc">
+      <Filter>Source Files\Xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\examples\login\presencepushtask.cc">
+      <Filter>Source Files\Xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\examples\login\xmppauth.cc">
+      <Filter>Source Files\Xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\examples\login\xmpppump.cc">
+      <Filter>Source Files\Xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\examples\login\xmppsocket.cc">
+      <Filter>Source Files\Xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\examples\login\xmppthread.cc">
+      <Filter>Source Files\Xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\LibjingleDataTransfer_wrap.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tunneldatatransferclient.cpp">
+      <Filter>Source Files\DataTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="datatransferappproxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tunnelcache.cpp">
+      <Filter>Source Files\DataTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="tunnelgctask.cpp">
+      <Filter>Source Files\DataTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\p2p\base\pseudotcp.cc">
+      <Filter>Source Files\Session\Tunnel</Filter>
+    </ClCompile>
+    <ClCompile Include="tunnelthread.cpp">
+      <Filter>Source Files\Session\Tunnel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="console.h">
+      <Filter>Header Files\DataTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="consoleproxy.h">
+      <Filter>Header Files\DataTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files\DataTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="datatransferapp.h">
+      <Filter>Header Files\DataTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\session\tunnel\pseudotcpchannel.h">
+      <Filter>Header Files\Session\Tunnel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\session\tunnel\tunnelsessionclient.h">
+      <Filter>Header Files\Session\Tunnel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\examples\login\jingleinfotask.h">
+      <Filter>Header Files\Xmpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\examples\login\presenceouttask.h">
+      <Filter>Header Files\Xmpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\examples\login\presencepushtask.h">
+      <Filter>Header Files\Xmpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\examples\login\xmpppump.h">
+      <Filter>Header Files\Xmpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\examples\login\xmppauth.h">
+      <Filter>Header Files\Xmpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\examples\login\xmppsocket.h">
+      <Filter>Header Files\Xmpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\examples\login\xmppthread.h">
+      <Filter>Header Files\Xmpp</Filter>
+    </ClInclude>
+    <ClInclude Include="tunneldatatransferclient.h">
+      <Filter>Header Files\DataTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="datatransferappproxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tunnelcache.h">
+      <Filter>Header Files\DataTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="tunnelgctask.h">
+      <Filter>Header Files\DataTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\p2p\base\pseudotcp.h">
+      <Filter>Header Files\Session\Tunnel</Filter>
+    </ClInclude>
+    <ClInclude Include="tunnelthread.h">
+      <Filter>Header Files\Session\Tunnel</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\LibjingleDataTransfer_wrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Interface\LibjingleDataTransfer.i">
+      <Filter>Interface</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

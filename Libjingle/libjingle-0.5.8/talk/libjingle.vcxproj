@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="dbg|Win32">
+      <Configuration>dbg</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base\asyncfile.h" />
+    <ClInclude Include="base\asynchttprequest.h" />
+    <ClInclude Include="base\asyncpacketsocket.h" />
+    <ClInclude Include="base\asyncsocket.h" />
+    <ClInclude Include="base\asynctcpsocket.h" />
+    <ClInclude Include="base\asyncudpsocket.h" />
+    <ClInclude Include="base\autodetectproxy.h" />
+    <ClInclude Include="base\base64.h" />
+    <ClInclude Include="base\basicdefs.h" />
+    <ClInclude Include="base\basicpacketsocketfactory.h" />
+    <ClInclude Include="base\basictypes.h" />
+    <ClInclude Include="base\buffer.h" />
+    <ClInclude Include="base\bytebuffer.h" />
+    <ClInclude Include="base\byteorder.h" />
+    <ClInclude Include="base\checks.h" />
+    <ClInclude Include="base\common.h" />
+    <ClInclude Include="base\constructormagic.h" />
+    <ClInclude Include="base\criticalsection.h" />
+    <ClInclude Include="base\cryptstring.h" />
+    <ClInclude Include="base\diskcache.h" />
+    <ClInclude Include="base\Equifax_Secure_Global_eBusiness_CA-1.h" />
+    <ClInclude Include="base\event.h" />
+    <ClInclude Include="base\fileutils.h" />
+    <ClInclude Include="base\firewallsocketserver.h" />
+    <ClInclude Include="base\flags.h" />
+    <ClInclude Include="base\helpers.h" />
+    <ClInclude Include="base\host.h" />
+    <ClInclude Include="base\httpbase.h" />
+    <ClInclude Include="base\httpclient.h" />
+    <ClInclude Include="base\httpcommon-inl.h" />
+    <ClInclude Include="base\httpcommon.h" />
+    <ClInclude Include="base\httprequest.h" />
+    <ClInclude Include="base\latebindingsymboltable.h" />
+    <ClInclude Include="base\linked_ptr.h" />
+    <ClInclude Include="base\linux.h" />
+    <ClInclude Include="base\logging.h" />
+    <ClInclude Include="base\macasyncsocket.h" />
+    <ClInclude Include="base\macconversion.h" />
+    <ClInclude Include="base\macsocketserver.h" />
+    <ClInclude Include="base\macutils.h" />
+    <ClInclude Include="base\md5.h" />
+    <ClInclude Include="base\messagehandler.h" />
+    <ClInclude Include="base\messagequeue.h" />
+    <ClInclude Include="base\nethelpers.h" />
+    <ClInclude Include="base\network.h" />
+    <ClInclude Include="base\openssladapter.h" />
+    <ClInclude Include="base\opensslidentity.h" />
+    <ClInclude Include="base\opensslstreamadapter.h" />
+    <ClInclude Include="base\packetsocketfactory.h" />
+    <ClInclude Include="base\pathutils.h" />
+    <ClInclude Include="base\physicalsocketserver.h" />
+    <ClInclude Include="base\proxydetect.h" />
+    <ClInclude Include="base\proxyinfo.h" />
+    <ClInclude Include="base\ratetracker.h" />
+    <ClInclude Include="base\referencecountedsingletonfactory.h" />
+    <ClInclude Include="base\schanneladapter.h" />
+    <ClInclude Include="base\scoped_ptr.h" />
+    <ClInclude Include="base\sec_buffer.h" />
+    <ClInclude Include="base\signalthread.h" />
+    <ClInclude Include="base\sigslot.h" />
+    <ClInclude Include="base\sigslotrepeater.h" />
+    <ClInclude Include="base\socket.h" />
+    <ClInclude Include="base\socketadapters.h" />
+    <ClInclude Include="base\socketaddress.h" />
+    <ClInclude Include="base\socketaddresspair.h" />
+    <ClInclude Include="base\socketfactory.h" />
+    <ClInclude Include="base\socketpool.h" />
+    <ClInclude Include="base\socketserver.h" />
+    <ClInclude Include="base\socketstream.h" />
+    <ClInclude Include="base\ssladapter.h" />
+    <ClInclude Include="base\sslidentity.h" />
+    <ClInclude Include="base\sslroots.h" />
+    <ClInclude Include="base\sslsocketfactory.h" />
+    <ClInclude Include="base\sslstreamadapter.h" />
+    <ClInclude Include="base\stream.h" />
+    <ClInclude Include="base\stringdigest.h" />
+    <ClInclude Include="base\stringencode.h" />
+    <ClInclude Include="base\stringutils.h" />
+    <ClInclude Include="base\task.h" />
+    <ClInclude Include="base\taskparent.h" />
+    <ClInclude Include="base\taskrunner.h" />
+    <ClInclude Include="base\thread.h" />
+    <ClInclude Include="base\time.h" />
+    <ClInclude Include="base\unixfilesystem.h" />
+    <ClInclude Include="base\urlencode.h" />
+    <ClInclude Include="base\win32.h" />
+    <ClInclude Include="base\win32filesystem.h" />
+    <ClInclude Include="base\win32socketinit.h" />
+    <ClInclude Include="base\win32socketserver.h" />
+    <ClInclude Include="base\win32window.h" />
+    <ClInclude Include="base\winfirewall.h" />
+    <ClInclude Include="base\winping.h" />
+    <ClInclude Include="base\worker.h" />
+    <ClInclude Include="p2p\base\candidate.h" />
+    <ClInclude Include="p2p\base\common.h" />
+    <ClInclude Include="p2p\base\constants.h" />
+    <ClInclude Include="p2p\base\p2ptransport.h" />
+    <ClInclude Include="p2p\base\p2ptransportchannel.h" />
+    <ClInclude Include="p2p\base\parsing.h" />
+    <ClInclude Include="p2p\base\port.h" />
+    <ClInclude Include="p2p\base\portallocator.h" />
+    <ClInclude Include="p2p\base\pseudotcp.h" />
+    <ClInclude Include="p2p\base\rawtransport.h" />
+    <ClInclude Include="p2p\base\rawtransportchannel.h" />
+    <ClInclude Include="p2p\base\relayport.h" />
+    <ClInclude Include="p2p\base\relayserver.h" />
+    <ClInclude Include="p2p\base\session.h" />
+    <ClInclude Include="p2p\base\sessionclient.h" />
+    <ClInclude Include="p2p\base\sessiondescription.h" />
+    <ClInclude Include="p2p\base\sessionid.h" />
+    <ClInclude Include="p2p\base\sessionmanager.h" />
+    <ClInclude Include="p2p\base\sessionmessages.h" />
+    <ClInclude Include="p2p\base\stun.h" />
+    <ClInclude Include="p2p\base\stunport.h" />
+    <ClInclude Include="p2p\base\stunrequest.h" />
+    <ClInclude Include="p2p\base\stunserver.h" />
+    <ClInclude Include="p2p\base\tcpport.h" />
+    <ClInclude Include="p2p\base\transport.h" />
+    <ClInclude Include="p2p\base\transportchannel.h" />
+    <ClInclude Include="p2p\base\transportchannelimpl.h" />
+    <ClInclude Include="p2p\base\transportchannelproxy.h" />
+    <ClInclude Include="p2p\base\udpport.h" />
+    <ClInclude Include="p2p\client\basicportallocator.h" />
+    <ClInclude Include="p2p\client\httpportallocator.h" />
+    <ClInclude Include="p2p\client\sessionmanagertask.h" />
+    <ClInclude Include="p2p\client\sessionsendtask.h" />
+    <ClInclude Include="p2p\client\socketmonitor.h" />
+    <ClInclude Include="xmpp\asyncsocket.h" />
+    <ClInclude Include="xmpp\constants.h" />
+    <ClInclude Include="xmpp\iqtask.h" />
+    <ClInclude Include="xmpp\jid.h" />
+    <ClInclude Include="xmpp\mucroomlookuptask.h" />
+    <ClInclude Include="xmpp\plainsaslhandler.h" />
+    <ClInclude Include="xmpp\prexmppauth.h" />
+    <ClInclude Include="xmpp\ratelimitmanager.h" />
+    <ClInclude Include="xmpp\saslcookiemechanism.h" />
+    <ClInclude Include="xmpp\saslhandler.h" />
+    <ClInclude Include="xmpp\saslmechanism.h" />
+    <ClInclude Include="xmpp\saslplainmechanism.h" />
+    <ClInclude Include="xmpp\xmppclient.h" />
+    <ClInclude Include="xmpp\xmppclientsettings.h" />
+    <ClInclude Include="xmpp\xmppengine.h" />
+    <ClInclude Include="xmpp\xmppengineimpl.h" />
+    <ClInclude Include="xmpp\xmpplogintask.h" />
+    <ClInclude Include="xmpp\xmppstanzaparser.h" />
+    <ClInclude Include="xmpp\xmpptask.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base\asyncfile.cc" />
+    <ClCompile Include="base\asynchttprequest.cc" />
+    <ClCompile Include="base\asyncpacketsocket.cc" />
+    <ClCompile Include="base\asyncsocket.cc" />
+    <ClCompile Include="base\asynctcpsocket.cc" />
+    <ClCompile Include="base\asyncudpsocket.cc" />
+    <ClCompile Include="base\autodetectproxy.cc" />
+    <ClCompile Include="base\base64.cc" />
+    <ClCompile Include="base\basicpacketsocketfactory.cc" />
+    <ClCompile Include="base\bytebuffer.cc" />
+    <ClCompile Include="base\checks.cc" />
+    <ClCompile Include="base\common.cc" />
+    <ClCompile Include="base\diskcache.cc" />
+    <ClCompile Include="base\event.cc" />
+    <ClCompile Include="base\fileutils.cc" />
+    <ClCompile Include="base\firewallsocketserver.cc" />
+    <ClCompile Include="base\flags.cc" />
+    <ClCompile Include="base\helpers.cc" />
+    <ClCompile Include="base\host.cc" />
+    <ClCompile Include="base\httpbase.cc" />
+    <ClCompile Include="base\httpclient.cc" />
+    <ClCompile Include="base\httpcommon.cc" />
+    <ClCompile Include="base\httprequest.cc" />
+    <ClCompile Include="base\latebindingsymboltable.cc" />
+    <ClCompile Include="base\linux.cc" />
+    <ClCompile Include="base\logging.cc" />
+    <ClCompile Include="base\macasyncsocket.cc" />
+    <ClCompile Include="base\macconversion.cc" />
+    <ClCompile Include="base\macsocketserver.cc" />
+    <ClCompile Include="base\macutils.cc" />
+    <ClCompile Include="base\messagehandler.cc" />
+    <ClCompile Include="base\messagequeue.cc" />
+    <ClCompile Include="base\nethelpers.cc" />
+    <ClCompile Include="base\network.cc" />
+    <ClCompile Include="base\openssladapter.cc" />
+    <ClCompile Include="base\opensslidentity.cc" />
+    <ClCompile Include="base\opensslstreamadapter.cc" />
+    <ClCompile Include="base\pathutils.cc" />
+    <ClCompile Include="base\physicalsocketserver.cc" />
+    <ClCompile Include="base\proxydetect.cc" />
+    <ClCompile Include="base\proxyinfo.cc" />
+    <ClCompile Include="base\ratetracker.cc" />
+    <ClCompile Include="base\schanneladapter.cc" />
+    <ClCompile Include="base\signalthread.cc" />
+    <ClCompile Include="base\socketadapters.cc" />
+    <ClCompile Include="base\socketaddress.cc" />
+    <ClCompile Include="base\socketaddresspair.cc" />
+    <ClCompile Include="base\socketpool.cc" />
+    <ClCompile Include="base\socketstream.cc" />
+    <ClCompile Include="base\ssladapter.cc" />
+    <ClCompile Include="base\sslidentity.cc" />
+    <ClCompile Include="base\sslsocketfactory.cc" />
+    <ClCompile Include="base\sslstreamadapter.cc" />
+    <ClCompile Include="base\stream.cc" />
+    <ClCompile Include="base\stringdigest.cc" />
+    <ClCompile Include="base\stringencode.cc" />
+    <ClCompile Include="base\stringutils.cc" />
+    <ClCompile Include="base\task.cc" />
+    <ClCompile Include="base\taskparent.cc" />
+    <ClCompile Include="base\taskrunner.cc" />
+    <ClCompile Include="base\thread.cc" />
+    <ClCompile Include="base\time.cc" />
+    <ClCompile Include="base\unixfilesystem.cc" />
+    <ClCompile Include="base\urlencode.cc" />
+    <ClCompile Include="base\win32.cc" />
+    <ClCompile Include="base\win32filesystem.cc" />
+    <ClCompile Include="base\win32securityerrors.cc" />
+    <ClCompile Include="base\win32socketinit.cc" />
+    <ClCompile Include="base\win32socketserver.cc" />
+    <ClCompile Include="base\win32window.cc" />
+    <ClCompile Include="base\winfirewall.cc" />
+    <ClCompile Include="base\winping.cc" />
+    <ClCompile Include="base\worker.cc" />
+    <ClCompile Include="p2p\base\constants.cc" />
+    <ClCompile Include="p2p\base\p2ptransport.cc" />
+    <ClCompile Include="p2p\base\p2ptransportchannel.cc" />
+    <ClCompile Include="p2p\base\parsing.cc" />
+    <ClCompile Include="p2p\base\port.cc" />
+    <ClCompile Include="p2p\base\pseudotcp.cc" />
+    <ClCompile Include="p2p\base\rawtransport.cc" />
+    <ClCompile Include="p2p\base\rawtransportchannel.cc" />
+    <ClCompile Include="p2p\base\relayport.cc" />
+    <ClCompile Include="p2p\base\relayserver.cc" />
+    <ClCompile Include="p2p\base\relayserver_main.cc" />
+    <ClCompile Include="p2p\base\session.cc" />
+    <ClCompile Include="p2p\base\sessiondescription.cc" />
+    <ClCompile Include="p2p\base\sessionmanager.cc" />
+    <ClCompile Include="p2p\base\sessionmessages.cc" />
+    <ClCompile Include="p2p\base\stun.cc" />
+    <ClCompile Include="p2p\base\stunport.cc" />
+    <ClCompile Include="p2p\base\stunrequest.cc" />
+    <ClCompile Include="p2p\base\stunserver.cc" />
+    <ClCompile Include="p2p\base\stunserver_main.cc" />
+    <ClCompile Include="p2p\base\tcpport.cc" />
+    <ClCompile Include="p2p\base\transport.cc" />
+    <ClCompile Include="p2p\base\transportchannel.cc" />
+    <ClCompile Include="p2p\base\transportchannelproxy.cc" />
+    <ClCompile Include="p2p\base\udpport.cc" />
+    <ClCompile Include="p2p\client\basicportallocator.cc" />
+    <ClCompile Include="p2p\client\httpportallocator.cc" />
+    <ClCompile Include="p2p\client\socketmonitor.cc" />
+    <ClCompile Include="xmpp\constants.cc" />
+    <ClCompile Include="xmpp\iqtask.cc" />
+    <ClCompile Include="xmpp\jid.cc" />
+    <ClCompile Include="xmpp\mucroomlookuptask.cc" />
+    <ClCompile Include="xmpp\ratelimitmanager.cc" />
+    <ClCompile Include="xmpp\saslmechanism.cc" />
+    <ClCompile Include="xmpp\xmppclient.cc" />
+    <ClCompile Include="xmpp\xmppengineimpl.cc" />
+    <ClCompile Include="xmpp\xmppengineimpl_iq.cc" />
+    <ClCompile Include="xmpp\xmpplogintask.cc" />
+    <ClCompile Include="xmpp\xmppstanzaparser.cc" />
+    <ClCompile Include="xmpp\xmpptask.cc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{DB74C511-D65B-6002-77BD-C1FE6AF757FF}</ProjectGuid>
+    <RootNamespace>libjingle</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <OutDir>$(ProjectDir)/build/dbg/lib</OutDir>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">$(ProjectDir)/build/dbg/logs</IntDir>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">$(ProjectDir)..\swtoolkit\hammer.bat --mode=dbg libjingle</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">$(ProjectDir)..\swtoolkit\hammer.bat --mode=dbg -c libjingle</NMakeCleanCommandLine>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">$(ProjectDir)build\dbg\lib\libjingle.lib</NMakeOutput>
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">$(ProjectDir)..\swtoolkit\hammer.bat --mode=dbg libjingle</NMakeReBuildCommandLine>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='dbg|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\talk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BrowseInformation>true</BrowseInformation>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WINDOWS;UNICODE;_UNICODE;WINVER=0x0500;_WIN32_WINNT=0x500;PRODUCTION_BUILD;PRODUCTION;XML_STATIC;FEATURE_ENABLE_SSL;FEATURE_ENABLE_CHAT_ARCHIVING;FEATURE_ENABLE_VOICEMAIL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

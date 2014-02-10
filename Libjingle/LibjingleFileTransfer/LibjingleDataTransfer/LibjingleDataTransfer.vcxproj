@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D09CB62F-8D68-4B51-8E2E-8C927F79CDEA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LibjingleFileTransfer</RootNamespace>
+    <ProjectName>LibjingleDataTransfer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\..\libjingle-0.5.8;$(IncludePath)</IncludePath>
+    <SourcePath>..\..\libjingle-0.5.8;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\libjingle-0.5.8;C:\Program Files\Java\jdk1.7.0\include;C:\Program Files\Java\jdk1.7.0\include\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WINDOWS;UNICODE;_UNICODE;WINVER=0x0500;_WIN32_WINNT=0x500;PRODUCTION_BUILD;PRODUCTION;XML_STATIC;FEATURE_ENABLE_SSL;FEATURE_ENABLE_CHAT_ARCHIVING;FEATURE_ENABLE_VOICEMAIL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalUsingDirectories>..\..\libjingle-0.5.8</AdditionalUsingDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ProgramDataBaseFileName>$(TargetDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\libjingle-0.5.8\talk\build\dbg\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libjingle.lib;ws2_32.lib;comsupp.lib;secur32.lib;expat.lib;Wininet.lib;Iphlpapi.lib;crypt32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>..\Debug\LibjingleDataTransfer.lib</ImportLibrary>
+      <OutputFile>..\..\..\NATTraversal\lib\LibjingleDataTransfer.dll</OutputFile>
+    </Link>
+    <Lib />
+    <Lib />
+    <Lib />
+    <Lib>
+      <AdditionalLibraryDirectories>..\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libjingle.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Bscmake>
+      <PreserveSBR>true</PreserveSBR>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="Interface\LibjingleDataTransfer.i">
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(InputName)_wrap.cxx;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">echo In order to function correctly, please ensure the following environment variables are correctly set: 
+echo JAVA_INCLUDE : Set this to the directory containing jni.h
+echo JAVA_BIN : Set this to the bin directory containing javac.exe
+echo on 
+C:\swigwin-2.0.4\swig.exe -c++ -java -package com.degoo.libjingle4j.proxy -outdir ..\..\..\NATTraversal\src\com\degoo\libjingle4j\proxy -I Interface\LibjingleDataTransfer.i</Command>
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\examples\login\jingleinfotask.cc" />
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\examples\login\presenceouttask.cc" />
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\examples\login\presencepushtask.cc" />
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\examples\login\xmppauth.cc" />
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\examples\login\xmpppump.cc" />
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\examples\login\xmppsocket.cc" />
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\examples\login\xmppthread.cc" />
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\p2p\base\pseudotcp.cc" />
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\session\tunnel\pseudotcpchannel.cc" />
+    <ClCompile Include="..\..\libjingle-0.5.8\talk\session\tunnel\tunnelsessionclient.cc" />
+    <ClCompile Include="console.cpp" />
+    <ClCompile Include="consoleproxy.cpp" />
+    <ClCompile Include="constants.cpp" />
+    <ClCompile Include="datatransferapp.cpp" />
+    <ClCompile Include="datatransferappproxy.cpp" />
+    <ClCompile Include="Interface\LibjingleDataTransfer_wrap.cxx" />
+    <ClCompile Include="tunnelcache.cpp" />
+    <ClCompile Include="tunneldatatransferclient.cpp" />
+    <ClCompile Include="tunnelgctask.cpp" />
+    <ClCompile Include="tunnelthread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\examples\login\jingleinfotask.h" />
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\examples\login\presenceouttask.h" />
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\examples\login\presencepushtask.h" />
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\examples\login\xmppauth.h" />
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\examples\login\xmpppump.h" />
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\examples\login\xmppsocket.h" />
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\examples\login\xmppthread.h" />
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\p2p\base\pseudotcp.h" />
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\session\tunnel\pseudotcpchannel.h" />
+    <ClInclude Include="..\..\libjingle-0.5.8\talk\session\tunnel\tunnelsessionclient.h" />
+    <ClInclude Include="console.h" />
+    <ClInclude Include="consoleproxy.h" />
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="datatransferappproxy.h" />
+    <ClInclude Include="datatransferapp.h" />
+    <ClInclude Include="Interface\LibjingleDataTransfer_wrap.h" />
+    <ClInclude Include="tunnelcache.h" />
+    <ClInclude Include="tunneldatatransferclient.h" />
+    <ClInclude Include="tunnelgctask.h" />
+    <ClInclude Include="tunnelthread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\libjingle-0.5.8\talk\libjingle.vcxproj">
+      <Project>{db74c511-d65b-6002-77bd-c1fe6af757ff}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

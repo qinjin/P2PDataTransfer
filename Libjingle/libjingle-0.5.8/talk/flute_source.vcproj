@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject Keyword="MakeFileProj" Name="flute_source" ProjectGUID="{DE40824B-1BB2-FD2E-8B9F-3BCA08A5EB9E}" ProjectType="Visual C++" RootNamespace="flute_source" Version="8.00">
+  <Platforms>
+    <Platform Name="Win32"/>
+  </Platforms>
+  <ToolFiles/>
+  <Configurations>
+    <Configuration ConfigurationType="0" Name="all|Win32">
+      <Tool AssemblySearchPath="" CompileAsManaged="" ForcedIncludes="" ForcedUsingAssemblies="" IncludeSearchPath="" Name="VCNMakeTool" PreprocessorDefinitions=""/>
+    </Configuration>
+  </Configurations>
+  <Files>
+    <Filter Name="flute"/>
+    <Filter Name="google3"/>
+    <Filter Name="third_party"/>
+  </Files>
+  <Globals/>
+</VisualStudioProject>

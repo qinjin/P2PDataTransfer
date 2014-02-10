@@ -1,0 +1,10 @@
+2011.36.20 18:36:33.560 [main] DEBUG com.degoo.nat.NATTraversalApp - Started login to localhost:5222...
+2011.36.20 18:36:36.574 [main] ERROR c.d.n.a.i.l.LibjingleAdapterImpl - For input string: "100@localhost"
+2011.02.20 19:02:05.978 [main] DEBUG com.degoo.nat.NATTraversalApp - Started login to localhost:5222...
+2011.02.20 19:02:08.998 [main] ERROR c.d.n.a.i.l.LibjingleAdapterImpl - For input string: "100@localhost"
+2011.12.20 19:12:38.386 [main] DEBUG com.degoo.nat.NATTraversalApp - Started login to localhost:5222...
+2011.12.20 19:12:41.420 [main] ERROR c.d.n.a.i.l.LibjingleAdapterImpl - For input string: "100@localhost"
+2011.12.20 19:12:41.421 [main] ERROR c.d.n.a.i.l.LibjingleAdapterImpl - For input string: "100@localhost"
+2011.12.20 19:12:41.420 [main] ERROR c.d.n.a.i.l.LibjingleAdapterImpl - For input string: "100@localhost"
+2011.12.20 19:12:41.421 [main] ERROR c.d.n.a.i.l.LibjingleAdapterImpl - For input string: "100@localhost"
+For input string: "100@localhost""100@local

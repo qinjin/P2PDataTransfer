@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="flute">
+      <UniqueIdentifier>{1b3585a5-ae4e-48f1-8e55-acbef886b5b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="google3">
+      <UniqueIdentifier>{e4988c71-29cf-4436-b9a7-22adffaa6444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{9f0e9b47-4079-4ce5-ab1d-e8d91423558b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
